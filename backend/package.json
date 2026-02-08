@@ -1,0 +1,17 @@
+{
+  "name": "renos-oracle-api",
+  "version": "1.0.0",
+  "description": "Backend API for RenOS Oracle",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "dependencies": {
+    "express": "^5.2.1",
+    "cors": "^2.8.6",
+    "ethers": "^6.16.0",
+    "dotenv": "^17.2.4"
+  }
+}

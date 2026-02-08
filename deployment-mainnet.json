@@ -1,0 +1,11 @@
+{
+  "network": "ethereum-mainnet",
+  "contractAddress": "0xfbf9b815d9b78df3beca248317a147d705d261e7",
+  "deployer": "0x6C6A5255353636D3fb2f1d662522B570047Bc074",
+  "timestamp": "2026-02-08T08:23:59Z",
+  "txHash": "0xc2ef15c30f25162f43f73eca1f0016847978cd6f25e620985332e966ca3733c8",
+  "rpc": "https://virginia.rpc.blxrbdn.com",
+  "etherscan": "https://etherscan.io/address/0xfbf9b815d9b78df3beca248317a147d705d261e7",
+  "block": 24410862,
+  "gasUsed": "0.00008768 ETH"
+}
