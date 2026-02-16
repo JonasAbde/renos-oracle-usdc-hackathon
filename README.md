@@ -46,7 +46,7 @@ Agents can:
          ▼                          ▼
 ┌──────────────────┐    ┌───────────────────────────────┐
 │   Billy.dk       │    │  RenOsOracle.sol              │
-│   (Invoices)     │    │  Base Sepolia                 │
+│   (Invoices)     │    │  Ethereum Mainnet             │
 │                  │    │  • createMarket()             │
 │  Revenue data    │    │  • stake(USDC)                │
 │  (Ground truth)  │    │  • resolve(actualValue)       │
@@ -56,16 +56,17 @@ Agents can:
 │ Google Calendar  │              │ USDC transfers
 │ (RenOS)          │              ▼
 │                  │    ┌───────────────────────────────┐
-│ Booking count    │    │  USDC Contract (Base Sepolia) │
-└──────────────────┘    │  0x036cbd53...3dcf7e          │
+│ Booking count    │    │  USDC Contract (Ethereum)     │
+└──────────────────┘    │  0xA0b86991...606eB48         │
                         └───────────────────────────────┘
 ```
 
 ## Smart Contract
 
 **Contract:** `RenOsOracle.sol` (Solidity ^0.8.23)  
-**Network:** Base Sepolia  
-**USDC:** `0x036cbd53842c5426634e7929541ec2318f3dcf7e`
+**Network:** Ethereum Mainnet  
+**Deployed address:** `0xfbf9b815d9b78df3beca248317a147d705d261e7`  
+**USDC (Ethereum Mainnet):** `0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48`
 
 ### Core Functions
 
