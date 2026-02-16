@@ -1,7 +1,7 @@
 import { ethers } from 'ethers';
 import fs from 'fs';
 
-const PRIVATE_KEY = '0xeb7d31a9b00ab36bbda0b0e19cff11d0d25b4f449084ba40c4b80f89ab99c42d';
+const PRIVATE_KEY = process.env.PRIVATE_KEY;
 
 // HIGH GAS LIMIT RPCs (paid tier features on free tier)
 const PREMIUM_RPCS = [

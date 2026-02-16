@@ -2,7 +2,7 @@ import { ethers } from 'ethers';
 import fs from 'fs';
 
 // Hardcode for now (gitignored anyway)
-const PRIVATE_KEY = '0xeb7d31a9b00ab36bbda0b0e19cff11d0d25b4f449084ba40c4b80f89ab99c42d';
+const PRIVATE_KEY = process.env.PRIVATE_KEY;
 const RPCS = [
   'https://ethereum.publicnode.com',
   'https://rpc.ankr.com/eth',
